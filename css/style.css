@@ -1,6 +1,45 @@
 .cuadro{
-    font-family:'Roboto', sans-serif;
-   font-size:20px;
-   color:white;
-   background:blue;
+    font-size: 20px;
+    color: white;
+    background: black;
+    overflow: auto;
+    padding-left: 5%;
+    text-decoration: none;
+  }
+  
+  .cuadro1{
+    font-size: 20px;
+    color: white;
+    background: #CE482B;
+    overflow: auto;
+    padding-left: 5%;
+  }
+  .cuadro2{
+    font-size: 30px;
+    color: black;
+    background: #A42020;
+    overflow: auto;
+    padding-left: 5%;
+  }
+  .cua{
+    font-size: 30px;
+    color: black;
+    background: #209AA4;
+    text-align: center;
+    overflow: auto;
+  }
+  ul{
+      list-style-type: none;
     }
+  .cuadro1 > ul > li > a{
+        padding-left: 10%;
+        text-decoration: none;
+    }
+    a:link, a:visited{
+      text-decoration: none;
+    }
+  body{
+     margin: 0;
+     font-family: 'Roboto', sans-serif;
+  }
+  
